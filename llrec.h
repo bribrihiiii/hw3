@@ -78,13 +78,32 @@ Node* llfilter(Node* head, Comp pred);
 //*****************************************************************************
 
 template <typename Comp>
-Node* llfilter(Node* head, Comp pred)
-{
-    //*********************************************
-    // Provide your implementation below
-    //*********************************************
+Node* llfilter(Node* head, Comp pred) {
 
+  if(head==NULL) {
+    return NULL;
+  }
 
+    Node* next_node = head->next;
+    Node* restOfIt = llfilter(next_node, pred);
+    int num = head->val;
+    bool removeIt = pred(num);
+
+    // i think this works??
+
+    if(removeIt == true){
+        delete head;
+        head = NULL;
+        return restOfIt;
+    }
+
+    else if(removeIt == false) {
+        head->next = restOfIt;
+        return head;
+    }
+
+    return head; // compiler was complaining without this
+    // remember to add to notes 
 }
 
 #endif

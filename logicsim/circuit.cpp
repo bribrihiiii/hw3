@@ -109,9 +109,24 @@ bool Circuit::parse(const char* fname)
                     getline(ss, s_output, ',');
                     m_gates.push_back(new Or2Gate(m_wires[stoi(s_in1)], m_wires[stoi(s_in2)], m_wires[stoi(s_output)]));
                 }
+
                 //Add code here to support the NOT gate type
+                if(s_type == "NOT") {
+                  // only one input!! (copied AND2 at first and it broke)
+                  std::string s_in1;
+                  getline(ss, s_in1, ',');
+                  std::string s_output;
+                  getline(ss, s_output, ',');
+                  //std::cout << "NOT gate: " << s_in1 << " " << s_output << std::endl;
+                  int in1 = stoi(s_in1);
+                  int out = stoi(s_output);
+                  Gate* notgate = new NotGate(m_wires[in1], m_wires[out]);
+                  m_gates.push_back(notgate);
+                }
+
             }
         }
+        
         if(line == "INJECT")
         {
             std::string t_line;
