@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/cmake_install.cmake",
+		"/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/cmake_install.cmake",
+		"/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/kwsys/cmake_install.cmake",
+		"/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/llrec_tests/cmake_install.cmake",
+		"/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/stack_tests/cmake_install.cmake",
+		"/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/heap_tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

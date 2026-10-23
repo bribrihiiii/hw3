@@ -1,0 +1,82 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/kwsys/ProcessUNIX.c"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/kwsys/EncodingC.c"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/kwsys/System.c"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/Configure.h"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/SharedForward.h"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/Process.h"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/Encoding.h"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/System.h"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/kwsys/Directory.cxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/Directory.hxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/kwsys/EncodingCXX.cxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/Encoding.hxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/kwsys/RegularExpression.cxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/RegularExpression.hxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/kwsys/SystemTools.cxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/SystemTools.hxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/kwsys/FStream.cxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/FStream.hxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/Configure.hxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/String.hxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/hashtable.hxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/hash_fun.hxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/hash_map.hxx"
+		},
+		{
+			"file" : "/mnt/c/Users/brian/OneDrive/Desktop/CSCI 104 F26 Materials/Homework Files/hw3/hw3_tests/testing_utils/generated_headers/kwsys/hash_set.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [],
+		"name" : "kwsys"
+	}
+}
